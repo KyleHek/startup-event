@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+}
+
+.bg-img {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: 27%;
+}
+
+/* my attempt at a container
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.text-lge {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(225, 225, 225);
+}
+
+.buffer {
+    height: 5rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    max-width: 85px;
+    opacity: .5;  
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.5);
+    --bs-btn-hover-bg: rgba(0,0,0,.8);	
+    --bs-btn-hover-border-color: rgb(225, 225, 225);
+    color: rgb(225, 225, 225);
+    box-shadow: 0px 0px 20px 1px rgba(46, 236, 251, 0.3);
+    transition: 1s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-custom {
+    padding: .5rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
